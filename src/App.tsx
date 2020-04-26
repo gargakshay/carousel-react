@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.scss";
 import Carousel from "./lib/components/carousel";
+import CarouselNew from "./lib/components/CarouselNew";
 
 function App() {
   const list1 = [
@@ -66,9 +67,9 @@ function App() {
   return (
     <div className="App">
       <h2>Example 1</h2>
-      <Carousel list={list1} width={300}></Carousel>
+      <CarouselNew list={list2} width={200} />
       <h2>Example 2</h2>
-      <Carousel list={list2} width={200}></Carousel>
+      <Carousel list={list1} width={300} />
     </div>
   );
 }

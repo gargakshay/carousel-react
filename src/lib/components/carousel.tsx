@@ -16,20 +16,11 @@ class Carousel extends Component<Props, State> {
   constructor(props) {
     super(props);
     this.state = {
-      index: 1,
+      index: 0,
       length: this.props.list.length,
       width: this.props.width || 200,
-      list: this.processList(this.props.list)
+      list: this.props.list
     };
-  }
-
-  processList(list: JSX.Element[]) {
-    if (Array.isArray(list)) {
-      let newList = [...list];
-      newList.unshift(list[list.length - 1]);
-      newList.push(list[0]);
-      return newList;
-    }
   }
 
   /**
@@ -38,7 +29,7 @@ class Carousel extends Component<Props, State> {
   onPrev = () => {
     let idx = this.state.index - 1;
     if (idx === 0) {
-      this.setState({ index: this.state.list.length - 2 });
+      this.setState({ index: this.state.list.length - 1 });
     } else {
       this.setState({ index: idx });
     }
@@ -48,41 +39,82 @@ class Carousel extends Component<Props, State> {
    * Handling for next action
    */
   onNext = () => {
-    let idx = (this.state.index + 1) % (this.state.list.length - 1);
-    if (idx === 0) {
-      this.setState({ index: 1 });
-    } else {
-      this.setState({ index: idx });
-    }
+    let idx = (this.state.index + 1) % this.state.list.length;
+    this.setState({ index: idx });
+  };
+
+  /**
+   * Render Prev button
+   */
+
+  renderPrevButton = () => {
+    return (
+      <div
+        className={`arrow arrow-left ${
+          this.state.index === 0 ? "disabled-btn" : ""
+        }`}
+        onClick={this.onPrev}
+      ></div>
+    );
+  };
+
+  /**
+   * Render Next button
+   */
+  renderNextButton = () => {
+    return (
+      <div
+        className={`arrow arrow-right ${
+          this.state.index === this.state.length - 1 ? "disabled-btn" : ""
+        }`}
+        onClick={this.onNext}
+      ></div>
+    );
+  };
+
+  /**
+   * Render Slides
+   */
+  renderSlides = () => {
+    return (
+      <div className="slider-wrapper">
+        <div
+          className="slides"
+          style={{
+            transform: `translateX(-${this.state.index * this.state.width -
+              this.state.width * 0.5}px)`
+          }}
+        >
+          {this.state.list.map((ele, idx) => (
+            <div
+              className={`slide`}
+              style={{
+                width: this.state.width + "px",
+                minWidth: this.state.width + "px"
+              }}
+              key={idx}
+            >
+              {ele}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
   };
 
   render() {
     return (
-      <>
+      <div className="carousel-container">
         {/* index {this.state.index} */}
         <div
           className="carousel"
-          style={{ width: `${this.state.width * 3}px` }}
+          style={{ width: `${this.state.width * 2.5}px` }}
         >
-          <div className="arrow arrow-left" onClick={this.onPrev}></div>
-          <div className="slider-wrapper">
-            <div
-              className="slides"
-              style={{
-                transform: `translateX(-${((this.state.index * this.state.width) - (this.state.width*.75) ) }px)`
-              }}
-            >
-              {this.state.list.map((ele, idx) => (
-                <div className={`slide`} style={{width: this.state.width+'px', minWidth: this.state.width+'px'}} key={idx}>
-                  {ele}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="arrow arrow-right" onClick={this.onNext}></div>
+          {this.renderPrevButton()}
+          {this.renderSlides()}
+          {this.renderNextButton()}
         </div>
-      </>
+      </div>
     );
   }
 }
