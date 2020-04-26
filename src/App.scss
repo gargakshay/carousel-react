@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0 0 100px 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.block{
+  display: table;
+  background: yellow;
+  width: 100%;
+  height: 200px;
+ 
+}
+.block-area {
+  display: table-cell;
+  vertical-align: middle;
+}
+
