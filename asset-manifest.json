@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gargakshay/carousel-react/static/css/main.f0d060fa.chunk.css",
+    "main.js": "/gargakshay/carousel-react/static/js/main.19309e72.chunk.js",
+    "main.js.map": "/gargakshay/carousel-react/static/js/main.19309e72.chunk.js.map",
+    "runtime-main.js": "/gargakshay/carousel-react/static/js/runtime-main.6f9e1fc5.js",
+    "runtime-main.js.map": "/gargakshay/carousel-react/static/js/runtime-main.6f9e1fc5.js.map",
+    "static/js/2.81e7e537.chunk.js": "/gargakshay/carousel-react/static/js/2.81e7e537.chunk.js",
+    "static/js/2.81e7e537.chunk.js.map": "/gargakshay/carousel-react/static/js/2.81e7e537.chunk.js.map",
+    "index.html": "/gargakshay/carousel-react/index.html",
+    "precache-manifest.c9e64392b0d855f8938a2f82933d8e6d.js": "/gargakshay/carousel-react/precache-manifest.c9e64392b0d855f8938a2f82933d8e6d.js",
+    "service-worker.js": "/gargakshay/carousel-react/service-worker.js",
+    "static/css/main.f0d060fa.chunk.css.map": "/gargakshay/carousel-react/static/css/main.f0d060fa.chunk.css.map",
+    "static/js/2.81e7e537.chunk.js.LICENSE.txt": "/gargakshay/carousel-react/static/js/2.81e7e537.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f9e1fc5.js",
+    "static/js/2.81e7e537.chunk.js",
+    "static/css/main.f0d060fa.chunk.css",
+    "static/js/main.19309e72.chunk.js"
+  ]
+}
