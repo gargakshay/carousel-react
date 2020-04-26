@@ -1,22 +1,28 @@
 {
   "files": {
     "main.css": "/carousel-react/static/css/main.f0d060fa.chunk.css",
-    "main.js": "/carousel-react/static/js/main.d8912209.chunk.js",
-    "main.js.map": "/carousel-react/static/js/main.d8912209.chunk.js.map",
+    "main.js": "/carousel-react/static/js/main.cca19813.chunk.js",
+    "main.js.map": "/carousel-react/static/js/main.cca19813.chunk.js.map",
     "runtime-main.js": "/carousel-react/static/js/runtime-main.2422d684.js",
     "runtime-main.js.map": "/carousel-react/static/js/runtime-main.2422d684.js.map",
-    "static/js/2.81e7e537.chunk.js": "/carousel-react/static/js/2.81e7e537.chunk.js",
-    "static/js/2.81e7e537.chunk.js.map": "/carousel-react/static/js/2.81e7e537.chunk.js.map",
+    "static/js/2.4cd4c677.chunk.js": "/carousel-react/static/js/2.4cd4c677.chunk.js",
+    "static/js/2.4cd4c677.chunk.js.map": "/carousel-react/static/js/2.4cd4c677.chunk.js.map",
     "index.html": "/carousel-react/index.html",
-    "precache-manifest.24a7279c18fbf8f6df9d20eefcc84019.js": "/carousel-react/precache-manifest.24a7279c18fbf8f6df9d20eefcc84019.js",
+    "precache-manifest.9ef08126b156b8e52b8b30d359ec428d.js": "/carousel-react/precache-manifest.9ef08126b156b8e52b8b30d359ec428d.js",
     "service-worker.js": "/carousel-react/service-worker.js",
     "static/css/main.f0d060fa.chunk.css.map": "/carousel-react/static/css/main.f0d060fa.chunk.css.map",
-    "static/js/2.81e7e537.chunk.js.LICENSE.txt": "/carousel-react/static/js/2.81e7e537.chunk.js.LICENSE.txt"
+    "static/js/2.4cd4c677.chunk.js.LICENSE.txt": "/carousel-react/static/js/2.4cd4c677.chunk.js.LICENSE.txt",
+    "static/media/photo-1544194215-541c2d3561a4.jpeg": "/carousel-react/static/media/photo-1544194215-541c2d3561a4.b984f651.jpeg",
+    "static/media/photo-1544210163-257effe9399e.jpeg": "/carousel-react/static/media/photo-1544210163-257effe9399e.ada7edb0.jpeg",
+    "static/media/photo-1546430783-fe4b9c159e52.jpeg": "/carousel-react/static/media/photo-1546430783-fe4b9c159e52.f2be133f.jpeg",
+    "static/media/photo-1548438294-1ad5d5f4f063.jpeg": "/carousel-react/static/media/photo-1548438294-1ad5d5f4f063.4ef64f75.jpeg",
+    "static/media/photo-1553374402-559e8b431161.jpeg": "/carousel-react/static/media/photo-1553374402-559e8b431161.d9ee454a.jpeg",
+    "static/media/photo-1554290712-e640351074bd.jpeg": "/carousel-react/static/media/photo-1554290712-e640351074bd.fbae8e69.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.2422d684.js",
-    "static/js/2.81e7e537.chunk.js",
+    "static/js/2.4cd4c677.chunk.js",
     "static/css/main.f0d060fa.chunk.css",
-    "static/js/main.d8912209.chunk.js"
+    "static/js/main.cca19813.chunk.js"
   ]
 }
