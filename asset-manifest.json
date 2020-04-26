@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/carousel-react/static/css/main.f0d060fa.chunk.css",
-    "main.js": "/carousel-react/static/js/main.cca19813.chunk.js",
-    "main.js.map": "/carousel-react/static/js/main.cca19813.chunk.js.map",
+    "main.css": "/carousel-react/static/css/main.17d1216f.chunk.css",
+    "main.js": "/carousel-react/static/js/main.67ea725d.chunk.js",
+    "main.js.map": "/carousel-react/static/js/main.67ea725d.chunk.js.map",
     "runtime-main.js": "/carousel-react/static/js/runtime-main.2422d684.js",
     "runtime-main.js.map": "/carousel-react/static/js/runtime-main.2422d684.js.map",
-    "static/js/2.4cd4c677.chunk.js": "/carousel-react/static/js/2.4cd4c677.chunk.js",
-    "static/js/2.4cd4c677.chunk.js.map": "/carousel-react/static/js/2.4cd4c677.chunk.js.map",
+    "static/js/2.f0feb1aa.chunk.js": "/carousel-react/static/js/2.f0feb1aa.chunk.js",
+    "static/js/2.f0feb1aa.chunk.js.map": "/carousel-react/static/js/2.f0feb1aa.chunk.js.map",
     "index.html": "/carousel-react/index.html",
-    "precache-manifest.9ef08126b156b8e52b8b30d359ec428d.js": "/carousel-react/precache-manifest.9ef08126b156b8e52b8b30d359ec428d.js",
+    "precache-manifest.7dc828e0825b30a15698b0947204be32.js": "/carousel-react/precache-manifest.7dc828e0825b30a15698b0947204be32.js",
     "service-worker.js": "/carousel-react/service-worker.js",
-    "static/css/main.f0d060fa.chunk.css.map": "/carousel-react/static/css/main.f0d060fa.chunk.css.map",
-    "static/js/2.4cd4c677.chunk.js.LICENSE.txt": "/carousel-react/static/js/2.4cd4c677.chunk.js.LICENSE.txt",
+    "static/css/main.17d1216f.chunk.css.map": "/carousel-react/static/css/main.17d1216f.chunk.css.map",
+    "static/js/2.f0feb1aa.chunk.js.LICENSE.txt": "/carousel-react/static/js/2.f0feb1aa.chunk.js.LICENSE.txt",
     "static/media/photo-1544194215-541c2d3561a4.jpeg": "/carousel-react/static/media/photo-1544194215-541c2d3561a4.b984f651.jpeg",
     "static/media/photo-1544210163-257effe9399e.jpeg": "/carousel-react/static/media/photo-1544210163-257effe9399e.ada7edb0.jpeg",
     "static/media/photo-1546430783-fe4b9c159e52.jpeg": "/carousel-react/static/media/photo-1546430783-fe4b9c159e52.f2be133f.jpeg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2422d684.js",
-    "static/js/2.4cd4c677.chunk.js",
-    "static/css/main.f0d060fa.chunk.css",
-    "static/js/main.cca19813.chunk.js"
+    "static/js/2.f0feb1aa.chunk.js",
+    "static/css/main.17d1216f.chunk.css",
+    "static/js/main.67ea725d.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1863f83a58ecd264fce2c92de3c61c4",
+    "revision": "f90fcabdbcd47069f5718b30df2b8e8b",
     "url": "/carousel-react/index.html"
   },
   {
-    "revision": "c595875c41ca4c787d6d",
-    "url": "/carousel-react/static/css/main.f0d060fa.chunk.css"
+    "revision": "db04ad94b664eeef7608",
+    "url": "/carousel-react/static/css/main.17d1216f.chunk.css"
   },
   {
-    "revision": "28ed5ac9fdf21ff9886d",
-    "url": "/carousel-react/static/js/2.4cd4c677.chunk.js"
+    "revision": "ccd413b8fb2781960dae",
+    "url": "/carousel-react/static/js/2.f0feb1aa.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/carousel-react/static/js/2.4cd4c677.chunk.js.LICENSE.txt"
+    "url": "/carousel-react/static/js/2.f0feb1aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c595875c41ca4c787d6d",
-    "url": "/carousel-react/static/js/main.cca19813.chunk.js"
+    "revision": "db04ad94b664eeef7608",
+    "url": "/carousel-react/static/js/main.67ea725d.chunk.js"
   },
   {
     "revision": "62e04dba5dc6bebfaf76",
