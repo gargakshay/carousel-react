@@ -61,7 +61,9 @@ function App() {
 
   return (
     <div className="App">
+      <h2>Example 1</h2>
       <Carousel list={list1} width={300}></Carousel>
+      <h2>Example 2</h2>
       <Carousel list={list2} width={200}></Carousel>
     </div>
   );
